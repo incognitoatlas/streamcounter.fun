@@ -13,7 +13,7 @@ function App() {
     <div>
       <div id="buttonClass" className="centered">
       <h1>You have</h1>
-      <input id="nameInput" placeholder="Click me to edit!" autoFocus></input>
+      <input id="nameInput" placeholder="Clicked (edit me)" autoFocus></input>
       <h1>{count} times!</h1>
       </div>
       <button className="button1 noselect" onClick={() => incrementCount(count+1)}>Add Count</button>
