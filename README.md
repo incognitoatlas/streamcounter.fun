@@ -1,13 +1,9 @@
-## Running React on Repl.it
+## Streamcounter.fun
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
-
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
-
-Using the two in conjunction is one of the fastest ways to build a web app.
+a simple tool to assist streamers/youtubers in long counting streams
 
 ### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+- Enter the goal in the text box
+- Press the "add count" button to add 1 to the counter
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the `.replit` file.
+Report an issue is you have any problems!
