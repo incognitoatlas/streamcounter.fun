@@ -1,10 +1,11 @@
 main {
   text-align: center;
   vertical-align: center;
-  line-height: 100vh
+  line-height: 100vh;
 }
 
 .button1 {
+  width: 40vw;
   margin: 0 auto;
   display: block;
   padding: 15px 25px;
@@ -14,16 +15,35 @@ main {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #4CAF50;
+  background-color: rgb(122, 122, 122);
   border: none;
   border-radius: 5px;
-  box-shadow: 0 9px #666;
+  height: 10vw;
 }
 
-.button1:hover {background-color: #3e8e41}
+.button1:hover {background-color: rgb(109, 109, 109)}
 
 .button1:active {
-  background-color: #377239;
-  box-shadow: 0 5px #555;
-  transform: translateY(4px);
+  background-color: rgb(82, 82, 82);
+}
+
+input#nameInput {
+  height: 7vw;
+  width: 100%;
+  padding: 0;
+  font-family: "Segoe UI";
+  font-size: 5vw;
+  text-align: center;
+  font-weight: 700;
+  border: none;
+  background-color: #b3b3b3;
+  
+}
+
+div#buttonClass h1 {
+  font-size: 5vw;
+}
+
+input#nameInput:focus {
+  outline: none;
 }
