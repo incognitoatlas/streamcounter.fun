@@ -37,6 +37,7 @@ main {
   height: 3vw;
 }
 
+
 .button1:hover, .button2:hover {background-color: rgb(109, 109, 109)}
 
 .button1:active, .button2:active {
@@ -47,7 +48,6 @@ input#nameInput {
   height: 7vw;
   width: 100%;
   padding: 0;
-  font-family: "Segoe UI";
   font-size: 5vw;
   text-align: center;
   font-weight: 700;
