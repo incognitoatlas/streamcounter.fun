@@ -12,6 +12,7 @@ function App() {
       <h1>{count} times!</h1>
       </div>
       <button className="button1 noselect" onClick={() => incrementCount(count+1)}>Add Count</button>
+      <button className="button2 noselect" onClick={() => incrementCount(0)}>Reset Counter</button>
     </div>
   );
 }

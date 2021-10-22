@@ -5,11 +5,11 @@ main {
 }
 
 .button1 {
-  width: 40vw;
+  width: 45vw;
   margin: 0 auto;
   display: block;
-  padding: 15px 25px;
-  font-size: 24px;
+  padding: 1vh 1.5vh;
+  font-size: 3.2vw;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -21,9 +21,25 @@ main {
   height: 10vw;
 }
 
-.button1:hover {background-color: rgb(109, 109, 109)}
+.button2 {
+  width: 45vw;
+  margin: 1vh auto;
+  display: block;
+  font-size: 1.5vw;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(122, 122, 122);
+  border: none;
+  border-radius: 5px;
+  height: 3vw;
+}
 
-.button1:active {
+.button1:hover, .button2:hover {background-color: rgb(109, 109, 109)}
+
+.button1:active, .button2:active {
   background-color: rgb(82, 82, 82);
 }
 
