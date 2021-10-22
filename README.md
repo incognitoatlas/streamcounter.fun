@@ -1,4 +1,4 @@
-## Streamcounter.fun
+## [Streamcounter.fun](https://streamcounter.fun).
 
 a simple tool to assist streamers/youtubers in long counting streams
 
