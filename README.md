@@ -7,3 +7,5 @@ a simple tool to assist streamers/youtubers in long counting streams
 - Press the "add count" button to add 1 to the counter
 
 Report an issue if you have any problems!
+
+### Powered by Vite & React.js
