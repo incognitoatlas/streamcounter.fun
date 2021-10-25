@@ -4,14 +4,19 @@ main {
   line-height: 100vh;
 }
 
+div.btnrow {
+  text-align: center;
+  padding: 0;
+}
+
 .button1 {
-  width: 45vw;
-  margin: 0 auto;
-  display: block;
-  padding: 1vh 1.5vh;
-  font-size: 3.2vw;
+  width: 22.2vw;
+  margin: .4vh .3vw;
+  display: inline;
   cursor: pointer;
   text-align: center;
+  font-weight: bold;
+  font-size: 10vh;
   text-decoration: none;
   outline: none;
   color: #fff;
@@ -23,7 +28,7 @@ main {
 
 .button2 {
   width: 45vw;
-  margin: 1vh auto;
+  margin: -1vh auto;
   display: block;
   font-size: 1.5vw;
   cursor: pointer;
@@ -35,6 +40,10 @@ main {
   border: none;
   border-radius: 5px;
   height: 3vw;
+}
+
+h1 {
+  margin: 2vw 0;
 }
 
 
@@ -56,10 +65,22 @@ input#nameInput {
   
 }
 
+.ten {
+  display: inline;
+  margin: .4vh .075vw;
+  width: 11.11vw;
+  font-weight: bold;
+}
+
+
 div#buttonClass h1 {
   font-size: 5vw;
 }
 
 input#nameInput:focus {
   outline: none;
+}
+
+#resetbtn {
+  margin-top: .8vh
 }
