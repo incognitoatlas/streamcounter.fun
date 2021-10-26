@@ -10,8 +10,8 @@ div.btnrow {
 }
 
 .button1 {
-  width: 22.2vw;
-  margin: .4vh .3vw;
+  width: 22.5vw;
+  margin: .5vh .15vw;
   display: inline;
   cursor: pointer;
   text-align: center;
@@ -26,9 +26,11 @@ div.btnrow {
   height: 10vw;
 }
 
+
+
 .button2 {
-  width: 45vw;
-  margin: -1vh auto;
+  width: 45.5vw;
+  margin: .4vh auto;
   display: block;
   font-size: 1.5vw;
   cursor: pointer;
@@ -43,7 +45,7 @@ div.btnrow {
 }
 
 h1 {
-  margin: 2vw 0;
+  margin: 5vh 0;
 }
 
 
@@ -67,7 +69,7 @@ input#nameInput {
 
 .ten {
   display: inline;
-  margin: .4vh .075vw;
+  margin: 0 .15vw;
   width: 11.11vw;
   font-weight: bold;
 }

@@ -13,7 +13,7 @@ function App() {
     <div>
       <div id="buttonClass" className="centered">
         <h1>You have</h1>
-        <input id="nameInput" placeholder="Clicked (edit me)" autoFocus></input>
+        <input id="nameInput" placeholder="Clicked (edit me)" autoFocus autocomplete="off"></input>
         <h1>{count} times!</h1>
       </div>
       <div className="btnrow">
@@ -26,7 +26,9 @@ function App() {
         <button className="button2 noselect ten" onClick={() => incrementCount(count + 100)} onKeyDown={handleSpace}>+100</button>
         <button className="button2 noselect ten" onClick={() => incrementCount(count - 100)} onKeyDown={handleSpace}>-100</button>
       </div>
+      <div id="center">
       <button className="button2 noselect" id="resetbtn" onClick={() => incrementCount(0)} onKeyDown={handleSpace}>Reset Counter</button>
+      </div>
     </div>
   );
 }
