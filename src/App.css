@@ -4,6 +4,22 @@ main {
   line-height: 100vh;
 }
 
+@keyframes wave {
+	0% { transform: rotate(-10deg); }
+	10% { transform: rotate(10deg); }
+	20% { transform: rotate(-10deg); }
+	30% { transform: rotate(10deg); }
+	40% { transform: rotate(-10deg); }
+	50% { transform: rotate(10deg); }
+	60% { transform: rotate(-10deg); }
+	100% { transform: rotate(10deg); }
+}
+
+span.wave {
+  display: inline-block;
+  animation: wave 5s infinite;
+}
+
 div.btnrow {
   text-align: center;
   padding: 0;
@@ -17,8 +33,7 @@ div.btnrow {
   text-align: center;
   font-weight: bold;
   font-size: 10vh;
-  text-decoration: none;
-  outline: none;
+    outline: none;
   color: #fff;
   background-color: rgb(122, 122, 122);
   border: none;

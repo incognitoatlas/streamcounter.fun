@@ -7,9 +7,9 @@ function App() {
   return (
     <div>
       <div id="buttonClass" className="centered">
-        <h1>You have</h1>
+        <h1 className="noselect">You have</h1>
         <input id="nameInput" placeholder="Clicked (edit me)" autoFocus autocomplete="off"></input>
-        <h1>{count} times!</h1>
+        <h1 className="noselect"><span className="wave">🎉</span> {count} times! <span className="wave">🎉</span></h1>
       </div>
       <div className="btnrow">
         <button className="button1 noselect inrow" onClick={() => incrementCount(count + 1)}>+</button>
